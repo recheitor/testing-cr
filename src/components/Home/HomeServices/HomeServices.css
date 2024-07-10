@@ -1,0 +1,55 @@
+.services {
+    margin-top: 3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.services-info {
+    text-align: left;
+}
+
+.services-title {
+    font-size: 2.8vw;
+    color: #19154E;
+    margin-bottom: 2vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.1vw;
+}
+
+.services-info p {
+    font-size: 1.6vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 450;
+    line-height: 1.6;
+    letter-spacing: 0.05vw;
+    color: #4E5063;
+    margin-bottom: -1vw;
+}
+
+.services-info span {
+    color: #4E5063;
+}
+
+.services-info h3 {
+    font-size: 1.6vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.05vw;
+    margin-top: 3.5vw;
+    margin-bottom: 2.8vw;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2vw;
+}
+
+.service-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.8rem;
+}
