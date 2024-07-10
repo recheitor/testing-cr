@@ -1,4 +1,3 @@
-import React from "react";
 import "./ContactCard.css";
 import ContactButton from "../ContactButton/ContactButton";
 const ContactCard = () => {

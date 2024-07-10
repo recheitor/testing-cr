@@ -1,4 +1,3 @@
-import React from "react";
 import "./ServiceSymptomsItem.css";
 
 const ServicesSymptoms = ({ service }) => {

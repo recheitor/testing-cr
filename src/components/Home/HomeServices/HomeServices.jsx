@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceCard from "../../ServiceCard/ServiceCard";
 import "./HomeServices.css";
 import languagesData from "../../../languages/languagesHomePage.json";
