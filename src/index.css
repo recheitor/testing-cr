@@ -9,3 +9,10 @@
    background-size: auto 80vh;
    background-repeat: no-repeat;
  }
+
+ html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 8vw;
+   margin-bottom: 30vw;
+   min-height: 80vh;
+ }
