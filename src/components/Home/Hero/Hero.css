@@ -1,0 +1,73 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    padding: 7vw;
+    gap: 40px;
+}
+
+.text-column {
+    flex: 1;
+    text-align: left;
+    margin-top: 13vw;
+}
+
+.text-column h1 {
+    color: #19154E;
+    font-size: 4.1vw;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 0;
+    line-height: 6vw;
+}
+
+.text-column span {
+    color: #91C5F2;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.1vw;
+    margin-top: -1.5vw;
+    margin-left: 0;
+}
+
+.text-column p {
+    font-size: 1.3vw;
+    color: #4E5063;
+    font-family: "Manrope", sans-serif;
+    font-weight: 650;
+    margin-right: 1.8vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+.text-column h2 {
+    margin-top: 2vw;
+    margin-left: 0;
+    font-size: 2vw;
+    color: #19154E;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.image-column {
+    flex: 1;
+    padding-top: 4vw;
+}
+
+.hero-photo {
+    border-radius: 10px;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 2vw;
+    margin-top: 2vw;
+    margin-left: 0;
+}

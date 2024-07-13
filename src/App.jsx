@@ -1,6 +1,6 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-// import AppRoutes from "./routes/AppRoutes";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
@@ -8,9 +8,9 @@ function App() {
       <nav>
         <Navigation aria-label="Main navigation" />
       </nav>
-      {/* <main>
+      <main>
         <AppRoutes role="region" aria-label="Main content" />
-      </main> */}
+      </main>
     </>
   );
 }
