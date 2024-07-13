@@ -8,27 +8,25 @@ const ServiceTypes = () => {
   const symptomTypes = ServiceDataTypes[serviceType] || [];
 
   return (
-    <div className="emotional-symptom-types">
-      <div className="service-symptoms-section">
-        {symptomTypes.map((symptom, index) => (
-          <div className="service-symptoms-item" key={{ index }}>
-            <div className="symptom-types">
-              <h3>{symptom.type}</h3>
-              <p>{symptom.description}</p>
-            </div>
-            <div className="symptom-subgroups">
-              {symptom.subgroups &&
-                symptom.subgroups.map((subgroup, index) => (
-                  <FAQItem
-                    key={index}
-                    question={subgroup.name}
-                    answer={subgroup.description}
-                  />
-                ))}
-            </div>
+    <div>
+      {symptomTypes.map((symptom, index) => (
+        <div className="service-symptoms-item" key={{ index }}>
+          <div className="symptom-types">
+            <h3>{symptom.type}</h3>
+            <p>{symptom.description}</p>
           </div>
-        ))}
-      </div>
+          <div className="symptom-subgroups">
+            {symptom.subgroups &&
+              symptom.subgroups.map((subgroup, index) => (
+                <FAQItem
+                  key={index}
+                  question={subgroup.name}
+                  answer={subgroup.description}
+                />
+              ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
