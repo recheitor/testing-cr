@@ -8,7 +8,7 @@ const EmotionalSymptoms = () => {
 
   return (
     <div className="service-symptoms">
-      <h2 className="symptoms-title">Síntomas:</h2>
+      <h3 className="symptoms-title">Síntomas:</h3>
       <p>{servicioProblemasEmocionales.symptoms}</p>
     </div>
   );
